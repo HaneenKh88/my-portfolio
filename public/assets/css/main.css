@@ -74,6 +74,7 @@ input, select, textarea {
 
 /* Basic */
 
+   
 	html {
 		box-sizing: border-box;
 	}
@@ -124,7 +125,7 @@ input, select, textarea {
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 			color: #333;
 		}
-
+    
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
@@ -218,6 +219,21 @@ input, select, textarea {
 		width: 1400px;
 	}
 
+	.container #MyImg{
+		border-radius: 50px;
+        float: left;
+	}
+
+	.container .Info
+	{
+		float: right;
+        font-size: x-large;
+        transform: translateX(-10px);
+        margin-bottom: revert;
+		text-align: left;
+		display: grid;
+		font: bold;
+	}
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
@@ -2091,7 +2107,7 @@ input, select, textarea {
 			position: relative;
 			color: #fff;
 			font-weight: 600;
-			font-size: 1em;
+			font-size: large;
 			line-height: 1em;
 		}
 
